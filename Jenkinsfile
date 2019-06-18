@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello jenkins again!'
+                echo 'Hello jenkins by SSH!'
             }
         }
     }
